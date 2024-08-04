@@ -1,0 +1,50 @@
+.playlist{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.6);
+	padding: 50px 18px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 400px;
+	height: 250px;
+	font-weight: 18px;
+	border-radius: 10px;
+	border: 1px soid rgba(255, 255, 255, 0.3);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+	color: #f9ffd7;
+	font-family: "Roboto", monospace;
+	margin-left: 10px;
+}
+h1{
+	color: #ffff80;
+	margin-top: 0px
+}
+.form{
+	line-height: 28px;
+}
+#btn {
+	padding: 10px 20px;
+	margin-top: 20px;
+	font-size: 17px;
+	font-family:monospace;
+	cursor: pointer;
+	background-color: rgba(250, 100, 0, 0.8);
+	color: #f9ffd7;
+	border: none;
+	border-radius: 30px;
+	display: block;
+	width: 300px;
+	box-sizing: border-box;
+}
+#btn:hover{
+	transform: scale(1.05);
+	background-color: #ff8040;
+}
+#in{
+	border-radius: 20px;
+	height: 30px;
+	width: 200px;
+}

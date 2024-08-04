@@ -1,0 +1,55 @@
+.song {
+	background-color: rgba(0, 0, 0, 0.5);
+	font-weight: 18px;
+	border-radius: 10px;
+	border: 1px soid rgba(255, 255, 255, 0.3);
+	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+	color: #f9ffd7;
+	width: 400px;
+	height: 450px;
+	margin: 100px auto 0px auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+label {
+	font-family: sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	padding: 0px;
+	line-height: 0px
+}
+
+#submit {
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 600;
+	border-radius: 15px;
+	background-color: rgba(250, 100, 0, 0.8);
+	color: #f9ffd7;
+	cursor: pointer;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+#submit:hover {
+	background-color: #ff8000;
+	transform: scale(1.05);
+}
+
+input#in {
+	width: 300px;
+	border: 1px solid #ddd;
+	border-radius: 30px;
+	outline: 0;
+	padding: 7px;
+	background-color: #ffffff;
+	box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+input#in:hover{
+	border: 1px solid black;
+}
