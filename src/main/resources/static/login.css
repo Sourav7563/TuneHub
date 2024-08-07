@@ -28,31 +28,33 @@ body {
 	height: 500px;
 	font-weight: 18px;
 	border-radius: 10px;
-	border: 1px soid rgba(255, 255, 255, 0.3);
+	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
 	color: #fff;
+	position: relative;
 }
 
 .input {
 	display: block;
 	padding: 17px 15px;
 	margin: 20px 15px;
-	margin-left: 50px; 
+	margin-left: 50px;
 	margin-top: 30px;
 	background: rgb(255, 255, 255);
-	border: 1px rgba(0, 0, 0, 0.2) solid;
+	border: 3px rgba(0, 0, 0, 0.2) solid;
 	outline: none;
-	border-radius: 40px;
+	border-radius: 20px;
 	width: 300px;
 	color: #211f20;
 	transition: 0.6s border-color;
 }
 
 .a {
+	text-decoration:none;
 	color: #f9ffd7;
 	padding: 17px 15px;
 	margin: 20px 15px;
-	margin-left: 120px;
+	margin-left: 60px;
 	font-size: 13px;
 	font-family: monospace;
 }
@@ -93,10 +95,10 @@ body {
 
 .btn {
 	padding: 17px;
-	width: 220px;
+	width: 290px;
 	height: 50px;
-	margin: 6px 15px;
-	margin-left: 100px;
+	margin: 4px 15px;
+	margin-left: 60px;
 	border-radius: 45px;
 	border: none;
 	cursor: pointer;
@@ -110,3 +112,4 @@ body {
 	background: #ff8000;
 	transform: scale(1.05);
 }
+
